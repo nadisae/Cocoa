@@ -1,0 +1,35 @@
+.nav-bar {
+  padding: 20px 30px;
+
+  background-color: #bae9c4d3;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-bar__ul {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.nav-bar__list {
+  color: inherit;
+  font-size: 25px;
+  position: relative;
+}
+
+.nav-bar__notification {
+  background-color: tomato;
+  color: white;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}

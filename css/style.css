@@ -1,0 +1,16 @@
+@import "reset.css";
+
+/* Components 폴더 모음 */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/* Screen 모음 */
+@import "screens/login.css";
+@import "screens/friends-name-display.css";
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  height: 1000vh;
+}
